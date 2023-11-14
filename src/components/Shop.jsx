@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import { useLoaderData } from "react-router-dom";
 import ProductCard from "./Cards/ProductCard";
 import { addToDb } from "../utilities/fakeDB";
 import { CartContext, ProductContext } from "../App";

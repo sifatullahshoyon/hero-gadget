@@ -4,8 +4,6 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal/modal";
 
-
-
 export const ProductContext = createContext([]);
 export const CartContext = createContext([]);
 

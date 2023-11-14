@@ -1,6 +1,5 @@
-import { json } from "react-router-dom";
-
 // Add Data to Local Storage
+
 const addToDb = id => {
     let shoppingCart = {};
     // get previous data from local storage.
